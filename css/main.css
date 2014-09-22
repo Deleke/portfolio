@@ -1,0 +1,169 @@
+a {
+	color: #47ede3;
+	text-decoration: none;
+}
+
+nav a {
+	color: #fff;
+	font-family: sans-serif;
+}
+
+nav a p:hover {
+	background-color: #a7efff;
+}
+
+#sideBar {
+	background-color: #47ede3;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 15%;
+}
+
+nav {
+	color: #fff;
+	font-family: sans-serif;
+	text-align: center;
+	padding-right: 0px;
+}
+
+nav a p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#profilePhoto {
+	display: block;
+	width: 60px;
+	height: 80px;
+	margin: 0 auto 30px;
+	border-radius: 100px; 
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+#mainContent {
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 85%;
+}
+
+#homePic {
+	width: 100%;
+	height: 100%;
+}
+
+#contact {
+	max-width: 940px;
+/*	margin: 200px auto;*/
+	padding: 0 5%;
+	
+}
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em; 
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 20px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+#primary {
+	width: 50%;
+	float: left;
+}
+
+#secondary {
+	width: 40%;
+	float: right;
+}
+
+h3, #primary p {
+	color: #000;
+	font-family: sans-serif;
+}
+
+#contactImage {
+	position: absolute;
+	right: 0;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+}
+
+#primary, #secondary {
+	position: relative;
+	z-index: 2;
+	margin-top: 10%;
+}
+
+#aboutPhoto {
+	border-radius: 100%;
+	max-width: 250px;
+}
+
+#about {
+	margin-top: 15%;
+	font-family: sans-serif;
+	text-align: center;
+	margin-right: 10%;
+}
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery img {
+	width: 100%;
+}
+#gallery ul li {
+	list-style: none;
+	float: left;
+	width: 27%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+.selected {
+	background-color: #a7efff;
+}
+
+#about, #contact, #portfolio {
+	display: none;
+}
+
